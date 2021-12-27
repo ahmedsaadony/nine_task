@@ -1,0 +1,269 @@
+body{
+    background-color: gainsboro;
+}
+
+.cont{
+    width: 960px;
+    margin: 50px auto;
+    height: 500px;
+    overflow: hidden;
+}
+@font-face {
+    font-family: font;
+    src: url(font/GreatVibes-Regular.ttf);
+}
+.cont ul{
+    list-style: none;
+    width: 4800px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    animation-name: slider;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+ .cont ul li{
+    float: left;
+    position: relative;
+}
+img{
+    width: 960px;
+    height: 500px;
+}
+@keyframes slider {
+   0%{
+       left: 0;
+   }
+    25%{
+        left: -960px;
+    }
+    50%{
+        left: -1920px;
+    }
+    75%{
+        left: -2880px;
+    }
+    100%{
+        left:-3480px;
+    }
+   
+}
+
+.d1 h4{
+    color: #C79C5E;
+    font-family: font;
+    font-size: 40px;
+}
+.shed:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.shed .i1{
+    width: 200px;
+    height: 200px;
+
+
+}
+.shed .i1 img{
+    width: 100%;
+    height: 100%;
+    border: 10px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.shed .i2{
+    width: 215px;
+    height: 42px;
+}
+.shed .i2 img{
+    width: 100%;
+    height: 100%;
+  
+}
+.x h4{
+    color: #C79C5E;
+    font-family: font;
+    font-size: 40px;
+
+}
+.y{
+    width: 100%;
+    height: 2px;
+    background-color:#C79C5E ;
+    margin-top: 30px;
+}
+.ded {
+    text-align: center;
+
+
+}
+.ded h5{
+font-family: font;
+font-size: 25px;
+
+}
+.ded img{
+    height: 200px;
+}
+.ded .hr{
+    height: 2px;
+    background-color: gray;
+    margin-bottom: 3px;
+}
+.ded a{
+    background-color: #524C4C;
+    border: 1px solid white;
+    outline: 4px solid #524C4C;
+}
+.ded a:hover{
+    background: none;
+
+}
+.ded:hover{
+    box-shadow: 2px 2px 3px  grey;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.ded:hover h5 ,.ded:hover a{
+    color: #C79C5E;
+
+}
+.ded:hover .hr{
+   background-color: #C79C5E;
+
+}
+.cup{
+    margin-top: 15px;
+    height: 405px;
+
+}
+.cup img{
+   width: 99%;
+   height: 405px;
+   border: 1px solid black;
+   border-radius:3px;
+   
+  
+}
+.inner{
+    margin-top: 15px;
+    position: relative;
+}
+.inner1 img{
+    width: 99%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius:3px;
+   
+}
+.inner2{
+    margin-top: 5px;
+    position: relative;
+}
+.div1{
+    position: relative;
+}
+.div1 .card-body{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: white;
+    background-color: #0000006b;
+    height: 100%;
+    display: none;
+    width: 99%;
+}
+.div1:hover .card-body{
+    display: block;
+}
+.inner .card-body{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: white;
+    background-color: #0000006b;
+    height: 100%;
+    width: 94%;
+    display: none;
+}
+.inner:hover .card-body{
+    display: block;
+}
+.inner2 .card-body{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: white;
+    background-color: #0000006b;
+    height: 100%;
+    width: 89%;
+    display: none;
+}
+.inner2:hover .card-body{
+display: block;
+}
+.menu img{
+    width: 300px;
+    height: 300px;
+}
+.tex p{
+    margin-left: 10px;
+}
+
+.lis{
+    background-color: transparent;
+    border: none;
+}
+.lis::before{
+    color: #C79C5E;
+}
+.class2{
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    background-color:#aa7327 ;
+}
+.link{
+    color: white;
+}
+.link h4{
+    margin-left: 30px;
+}
+
+.link ul
+{
+    list-style: none;
+}
+.link ul li a{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.about{
+    color: white;
+}
+.get span{
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: #DCDCDC;
+
+}
+.get span:hover{
+    color: #AA7327;
+    background-color:#DCDCDC ;
+    transition-duration: 1s;
+}
